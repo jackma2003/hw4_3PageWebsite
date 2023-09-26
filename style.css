@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    background: url("pictures/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+    height : 30vh;
+}
+
+header h1 {
+	font-family: "Proza Libre", sans-serif;
+    font-size: 7rem;
+    margin-bottom: 10px;
+    color: black;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none; 
+
+}
+
+
+
+.image-section {
+    display: flex;
+    align-items: center;
+}
+
+.image-section img {
+    max-width: 50%;
+    margin-right: 20px;
+}
+
+
+.highlight {
+    background-color: #000;
+    padding: 5px 10px; 
+    border-radius: 100px; 
+}
+
+.data-section {
+    max-width: 50%; 
+    margin: 20px auto; 
+    padding: 20px;
+    box-sizing: border-box; 
+    text-align: justify; 
+    background-color: white;
+}
+
+.data-section p {
+    color: #333; 
+    font-size: 16px; 
+    font-weight: bold; 
+}
+
+.data-section h1 {
+    color: #333; 
+    font-size: 2rem; 
+    font-weight: bold; 
+    text-align: left;
+}
